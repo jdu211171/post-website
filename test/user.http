@@ -1,0 +1,34 @@
+### Create a new user
+POST http://localhost:3000/user/create
+Content-Type: application/json
+
+{
+  "devise_token": "ewqwjafealjfeahlejflkaj"
+}
+
+### Update a username
+PUT http://localhost:3000/user/update
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjE3MDcyMjEwNDM0NjdfODAxNzk5ZjYtYmM1Yy00YTRjLWE5ZjQtOGRiMWMzMWI3OTAzIiwidXNlcl9pZCI6NDksImlhdCI6MTcwNzIyMTA0NCwiZXhwIjoxNzM4NzU3MDQ0fQ.NgsHojOOsCXIdlevV2tS7ENYeFgwGe-zVIJh7IoxfWI
+
+{
+	"username": "Yasuke"
+}
+
+### Create a new AWS user
+POST https://cgfop8siv2.execute-api.ap-northeast-1.amazonaws.com/api/user/create
+Content-Type: application/json
+
+{
+	"device_token": "afwehfealhHjkhJHWlhjhhg3"
+}
+
+### Update an AWS username
+PUT https://cgfop8siv2.execute-api.ap-northeast-1.amazonaws.com/api/user/update
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjE3MDYxNjYzNTQyMzRfNGM1ZGVlZmMtMzViNC00N2MwLTk2ODMtODdiZmUxMzdkYTA5IiwidXNlcl9pZCI6MjMsImlhdCI6MTcwNjE2NjM1NCwiZXhwIjoxNzM3NzAyMzU0fQ.Fa_-pdgZWy2KdQ2kr9vL2zVilayCyR1prgo34rhD2x0
+
+{
+	"id": 23,
+	"username": "Naruto"
+}
